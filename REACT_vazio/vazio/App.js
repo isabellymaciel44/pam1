@@ -18,8 +18,14 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    margintop:50,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
+cont_text: {
+  height: 1250,
+  backgroundColor: "red",
+},
+
 });
