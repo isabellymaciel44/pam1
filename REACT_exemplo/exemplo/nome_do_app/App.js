@@ -3,29 +3,18 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <scrollview>
     <View style={styles.container}>
-      <Text>Primeiro Site!</Text>
-     </View>
-      <View style={styles.cont_texto}>
-       <text> ...
-        </text> 
-      </View>
-     </scrollview>
+      <Text>Open up App.js to start working on your app!</Text>
+      <StatusBar style="auto" />
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    margintop:70,
-    backgroundColor: '#3d8c81',
+    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
-cont_text: {
-  height: 1250,
-  backgroundColor: "green",
-},
-
-}); r 
+});
